@@ -3,11 +3,7 @@ import numpy as np
 import cv2 as cv
 
 cap = cv.VideoCapture('test.mp4')
-# params for ShiTomasi corner detection
-feature_params = dict( maxCorners = 100,
-                       qualityLevel = 0.3,
-                       minDistance = 7,
-                       blockSize = 7 )
+
 # Parameters for lucas kanade optical flow
 lk_params = dict( winSize  = (15,15),
                   maxLevel = 2,
