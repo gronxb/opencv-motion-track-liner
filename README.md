@@ -1,2 +1,2 @@
-# opencv-directional-prediction
-Directional prediction implement of OpenCV Optical Flow
+# opencv-motion-track-liner
+implement of OpenCV Optical Flow
